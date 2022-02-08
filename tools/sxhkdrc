@@ -4,11 +4,10 @@
 
 # terminal emulator
 super + Return
-	gnome-terminal
-
+      kitty
 # program launcher
 super + d
-	rofi -show run
+	rofi -show drun
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -23,7 +22,7 @@ super + alt + {q,r}
 	bspc {quit,wm -r}
 
 # close and kill
-super + {_,shift + }w
+super + q
 	bspc node -{c,k}
 
 # alternate between the tiled and monocle layout
@@ -127,19 +126,25 @@ super + ctrl + {Left,Down,Up,Right}
 
 # Custom move/resize
 alt + super + {Left,Down,Up,Right}
-	/home/s4vitar/.config/bspwm/scripts/bspwm_resize {west,south,north,east}
+  /home/elyabany/.config/bspwm/bspwm_resize {west,south,north,east}
 
 
 # ---------------------------------------------
 # CUSTOM
 # ---------------------------------------------
 
-# Google-Chrome
+# firefox
 
-super + shift + g
-	google-chrome
-
+super + shift + f 
+   firefox-esr
 # Open Burpsuite Professional
 
 super + ctrl + b
 	gksudo burp
+
+
+super + shift + e 
+  emacs
+
+super + ctrl + f
+  flameshot gui  
