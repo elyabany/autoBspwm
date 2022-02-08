@@ -1,14 +1,14 @@
-Se ha testeado este script en ParrotOS, Kali y Ubuntu.
-Funciona para todos los sistemas operativos basados en Debian.
+This script has been tested on ParrotOS, Kali and Ubuntu.
+It works for all Debian-based operating systems.
 
-# Instalación
+# Installation
 
-```
+```bash
 git clone https://github.com/yorkox0/autoBspwm
 cd autoBspwm/
 python3 main.py
+
 ```
+You can also install the environment for the root user, just run the script with [sudo].
 
-Se puede instalar tambien el entorno para el ususaio root, solo ejecutar mediante [sudo] el script. 
-
-Disfrutad ^^
+Enjoy
