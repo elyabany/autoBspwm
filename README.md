@@ -4,7 +4,7 @@ It works for all Debian-based operating systems.
 # Installation
 
 ```bash
-git clone https://github.com/yorkox0/autoBspwm
+git clone https://github.com/elyabany/autoBspwm.git
 cd autoBspwm/
 python3 main.py
 
